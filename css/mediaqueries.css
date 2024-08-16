@@ -1,3 +1,4 @@
+/*Media queries para celulares de telas de 600px*/
 @media screen and (max-width: 600px) {
   .contaner2 {
     display: flex;

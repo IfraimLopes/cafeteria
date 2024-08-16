@@ -1,3 +1,4 @@
+/*Definições da imagem do Café first*/
 img {
   background-position: center center;
   background-size: cover;
@@ -5,6 +6,7 @@ img {
   width: 100%;
 }
 
+/*Colocando os teus frente da imagem*/
 section > .text {
   color: white;
   position: absolute;
@@ -28,6 +30,7 @@ section > .text {
   line-height: 30px;
 }
 
+/*Definições de todos input do tipo submit*/
 input[type="submit"] {
   background-color: rgb(212, 152, 40);
   padding: 10px;
