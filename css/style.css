@@ -17,3 +17,60 @@ body {
 html {
   scroll-behavior: smooth; /* Ativa rolagem suave */
 }
+
+/*Animações*/
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+p {
+  animation-duration: 0.5s;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes disp {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.menu {
+  animation: disp linear;
+  animation-timeline: view();
+  animation-range: entry 20%;
+}
+
+@keyframes ig {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+img {
+  animation: ig linear;
+  animation-duration: 0.7s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
